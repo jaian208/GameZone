@@ -30,18 +30,29 @@ https://store.steampowered.com/
 Plataforma de distribución digital con gran variedad de juegos y sistema de reseñas.
 
 Epic Games Store
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/781ae124-5834-4525-b912-06e6672373e9" />
+
 https://store.epicgames.com/
 Destaca por sus juegos gratuitos y exclusivas.
 
 Xbox Store
+<img width="1040" height="585" alt="image" src="https://github.com/user-attachments/assets/c6eb4e12-012b-494d-aeb8-760b8c1e350f" />
+
+
 https://www.xbox.com/
 Tienda digital integrada con consola y servicios online.
 
 Eneba
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/15a02643-e1af-45a9-b0a6-c34045eb9e12" />
+
+
 https://www.eneba.com/
 Marketplace de videojuegos digitales con precios accesibles.
 
 PlayStation Store
+<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/cafcd364-c612-401e-bd3c-c0bea9fc54e6" />
+
+
 https://store.playstation.com/
 Plataforma digital enfocada en la experiencia del usuario y juegos exclusivos.
 

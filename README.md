@@ -24,6 +24,8 @@ Jaime Andrey Rodríguez Peñaloza – Desarrollo / Investigación
 Estas plataformas nos inspiraron por su diseño, catálogo y experiencia de usuario:
 
 Steam
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/801d35a8-474a-4b9c-b7e2-12e292cf5951" />
+
 https://store.steampowered.com/
 Plataforma de distribución digital con gran variedad de juegos y sistema de reseñas.
 

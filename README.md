@@ -1,1 +1,52 @@
 # Desarrollo Web
+
+Título del proyecto:
+GameZone
+
+Descripción
+GameZone es una tienda de videojuegos en línea que ofrece un amplio catálogo
+de títulos para todos los gustos, adaptándose constantemente a la evolución de la industria y del mercado.
+Nuestro objetivo es brindar a los jugadores las mejores experiencias, 
+permitiéndoles descubrir, explorar y adquirir videojuegos de forma rápida,
+segura e intuitiva desde cualquier dispositivo.
+
+GameZone está dirigido a:
+
+Gamers que buscan títulos nuevos, populares o clásicos.
+Jugadores casuales que desean una experiencia divertida sin complicaciones.
+Personas mayores de 16 años o niños mayores de 8 años con supervisión de un adulto.
+
+Integrantes:
+Juan Esteban Cristancho Camacho – Desarrollo / Diseño
+Jaime Andrey Rodríguez Peñaloza – Desarrollo / Investigación
+
+5 Inspiraciones ó Referencias (con links e imágenes):
+Estas plataformas nos inspiraron por su diseño, catálogo y experiencia de usuario:
+
+Steam
+https://store.steampowered.com/
+Plataforma de distribución digital con gran variedad de juegos y sistema de reseñas.
+
+Epic Games Store
+https://store.epicgames.com/
+Destaca por sus juegos gratuitos y exclusivas.
+
+Xbox Store
+https://www.xbox.com/
+Tienda digital integrada con consola y servicios online.
+
+Eneba
+https://www.eneba.com/
+Marketplace de videojuegos digitales con precios accesibles.
+
+PlayStation Store
+https://store.playstation.com/
+Plataforma digital enfocada en la experiencia del usuario y juegos exclusivos.
+
+Tecnologías utilizadas
+
+Instalación y uso
+
+Tablero de trabajo por sprints 
+
+Notas finales (opcional)

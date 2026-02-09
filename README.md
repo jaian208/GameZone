@@ -14,8 +14,9 @@ Jugadores casuales que desean una experiencia divertida sin complicaciones.
 Personas mayores de 16 años o niños mayores de 8 años con supervisión de un adulto.
 
 ## Integrantes:
-Juan Esteban Cristancho Camacho – Desarrollo / Diseño
-Jaime Andrey Rodríguez Peñaloza – Desarrollo / Investigación
+Juan Esteban Cristancho Camacho – Desarrollo / Diseño.
+
+Jaime Andrey Rodríguez Peñaloza – Desarrollo / Investigación.
 
 ## 5 Inspiraciones ó Referencias (con links e imágenes):
 Estas plataformas nos inspiraron por su diseño, catálogo y experiencia de usuario:
@@ -60,7 +61,24 @@ Plataforma digital enfocada en la experiencia del usuario y juegos exclusivos.
 Link: https://store.playstation.com/
 
 
-Tecnologías utilizadas
+## Tecnologías utilizadas
+
+Git:
+
+<img width="1280" height="535" alt="image" src="https://github.com/user-attachments/assets/90a6e075-db60-4cda-b1b4-da98dbea9e94" />
+
+Git es un sistema de control de versiones distribuido (DVCS por sus siglas en ingles), usado para gestionar de forma eficiente los cambios 
+en el código fuente de proyectos de Software.
+
+
+Node JS: 
+
+<img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/e9dabd3b-9d59-4b9a-a40a-d174a7bbe818" />
+
+Node.js es un entorno de ejecución de JavaScript multiplataforma de código abierto que permite,
+a los desarrolladores ejecutar código JavaScript fuera de un navegador web.
+
+
 
 Instalación y uso
 

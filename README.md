@@ -102,6 +102,6 @@ Puedes verificar la versión del programa escribiendo en el CMD los siguientes c
 node -v
 git -v
 
-Tablero de trabajo por sprints 
+## Tablero de trabajo por sprints 
 
-Notas finales (opcional)
+## Notas finales (opcional)

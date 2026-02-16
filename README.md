@@ -124,4 +124,8 @@ git -v
 
 ## Tablero de trabajo por sprints 
 
+Aquí puedes consultar la planificación y fases de trabajo para el desarrollo de GameZone:
+
+https://github.com/users/juancristancho124-arch/projects/4/views/1
+
 ## Notas finales (opcional)

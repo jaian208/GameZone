@@ -66,7 +66,7 @@ Link: https://store.playstation.com/
 Intellij IDEA ULTIMATE:
 <img width="1280" height="535" alt="image" src="https://github.com/user-attachments/assets/5e07b1dc-3572-415c-8c1f-5e593020542b" />
 
-ntelliJ IDEA es un entorno de desarrollo integrado (IDE) para el desarrollo profesional en Java y Kotlin . Está diseñado para maximizar la productividad del desarrollador y prioriza la privacidad y la seguridad.
+IntelliJ IDEA es un entorno de desarrollo integrado (IDE) para el desarrollo profesional en Java y Kotlin . Está diseñado para maximizar la productividad del desarrollador y prioriza la privacidad y la seguridad.
 Git:
 
 <img width="1280" height="535" alt="image" src="https://github.com/user-attachments/assets/90a6e075-db60-4cda-b1b4-da98dbea9e94" />

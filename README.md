@@ -82,6 +82,13 @@ Node JS:
 Node.js es un entorno de ejecución de JavaScript multiplataforma de código abierto que permite,
 a los desarrolladores ejecutar código JavaScript fuera de un navegador web.
 
+Bootstrap:
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/1eba0066-dca8-4682-bf8c-392cdc77652b" />
+
+El framework de front-end más popular del mundo, diseñado para facilitar la creación de sitios web responsivos 
+
+
 
 
 ## Instalación y uso

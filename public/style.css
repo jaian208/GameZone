@@ -1,0 +1,34 @@
+
+ .hero-section {
+     background: linear-gradient(135deg, #007bff 0%, #00c6ff 100%);
+     color: white;
+     padding: 80px 20px;
+ }
+
+.description-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+}
+
+.carousel-section {
+    background: linear-gradient(135deg, #343a40 0%, #495057 100%);
+    color: white;
+    padding: 60px 30px;
+    margin-top: 450px;
+
+}
+
+
+.carousel-inner img {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #212529;
+    color: #adb5bd;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "gamezone",
+  "version": "1.0.0",
+  "description": "GameZone es una tienda de videojuegos en línea que ofrece un amplio catálogo\r de títulos para todos los gustos, adaptándose constantemente a la evolución de la industria y del mercado.\r Nuestro objetivo es brindar a los jugadores las mejores experiencias, \r permitiéndoles descubrir, explorar y adquirir videojuegos de forma rápida,\r segura e intuitiva desde cualquier dispositivo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaian208/GameZone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jaian208/GameZone/issues"
+  },
+  "homepage": "https://github.com/jaian208/GameZone#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

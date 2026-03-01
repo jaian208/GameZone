@@ -7,25 +7,21 @@ const thumbs = document.querySelectorAll(".thumb");
 let indiceActual = 0;
 
 function cambiarImagen(element) {
-    // Actualizamos imagen principal
     imagenPrincipal.src = element.src;
     imagenPrincipal.dataset.nombre = element.dataset.nombre;
     imagenPrincipal.dataset.precio = element.dataset.precio;
     imagenPrincipal.dataset.id = element.dataset.id;
 
-    // Actualizamos overlay
     nombreJuego.textContent = element.dataset.nombre;
     precioJuego.textContent = element.dataset.precio + " COP";
     btnComprar.href = "/comprar/" + element.dataset.id;
 
-    // Miniaturas activas
     thumbs.forEach(img => img.classList.remove("active"));
     element.classList.add("active");
 
     indiceActual = Array.from(thumbs).indexOf(element);
 }
 
-// Cambio automático
 function cambioAutomatico() {
     indiceActual++;
     if (indiceActual >= thumbs.length) indiceActual = 0;

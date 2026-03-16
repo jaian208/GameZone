@@ -12,10 +12,17 @@ En conjunto, el documento cumple adecuadamente con los requerimientos básicos p
 
 
 
-Retrospectiva Sprint 1:
-=====================
----------------------------
+## Retrospectiva Sprint 1:
 
-### ........
 
+Durante el Sprint 1, el equipo trabajó en la fase de introducción y wireframing del proyecto, estableciendo la estructura inicial del repositorio, documentación y diseño preliminar del sitio web.
+
+- Aspectos positivos
+
+Se creó correctamente el repositorio del proyecto y se agregaron los colaboradores.
+
+Se elaboró el archivo README.md con la temática del sitio y el público objetivo.
+
+Se desarrollaron los wireframes de las páginas (Home, Detalle de producto, Carrito de compras, Registro y Login) en figma
+Los wireframes pueden visualizarse en el siguiente enlace:
 

@@ -19,7 +19,7 @@ Durante la semana 1 del proyecto, se realizaron los Wireframes en Figma. Se real
 
 ### DISEÑO DEL PROYECTO (las bases principales)
 
-implementacion dee note.js, expres, organizacion de los archivos en diferentes carpetas y subcarpetas
+implementacion dee note.js, expres, organizacion de los archivos en diferentes carpetas y subcarpetas tales como:
 controller
 router
 model

@@ -24,5 +24,26 @@ Se creó correctamente el repositorio del proyecto y se agregaron los colaborado
 Se elaboró el archivo README.md con la temática del sitio y el público objetivo.
 
 Se desarrollaron los wireframes de las páginas (Home, Detalle de producto, Carrito de compras, Registro y Login) en figma
-Los wireframes pueden visualizarse en el siguiente enlace:
+Los wireframes pueden visualizarse en el siguiente enlace: https://www.figma.com/design/HjavAYJwaUEKobtNTbgrBD/Dise%C3%B1os-%22GameZone%22?node-id=3-226&t=zKj0u1KHV0amjo0i-0
+
+
+## Retrospectiva Sprint 2:
+
+Durante el Sprint 2, el equipo trabajó en la implementación del motor de plantillas EJS, framework ORM Sequelize y varias herramientas de seguridad como Bcrypt y la implementación de Express-Session para capturar los datos de usuario al momento de iniciar sesión.
+
+Durante el desarrollo, tuvimos innumerables problemas y contratiempos (algunos previsibles y otros completamente inesperados).
+
+
+
+Problemas a destacar:
+
+
+El caos del orden de Middlewares: Perdimos un tiempo precioso con el error user is not defined. La lección fue dura pero clara: en Express, el orden de los factores sí altera el producto. Intentar leer una sesión antes de que el middleware de sesión esté configurado fue nuestro mayor tropiezo.
+
+LAl principio, nos frustramos al ver que el login "desaparecía" constantemente. Nos costó un par de horas entender que cada vez que guardábamos un archivo, el servidor se reiniciaba y borraba la sesión de la memoria RAM. Fue un choque de realidad sobre cómo funciona el almacenamiento volátil.
+
+Hubo momentos donde quisimos implementar soluciones complejas (como actualizaciones de DOM vía Fetch) antes de tener lo básico funcionando. Esto casi compromete la entrega del carrito de compras.
+
+Sequelize tiene una particuarlidad si se le pasa un argumento en específico, lo que puede generar QUE TODA LA BASE DE DATOS simplemente se purgue y deje la página sin absolutamente nada (afortunadamente, guardamos copias de seguridad y pudimos reponernos en muy poco tiempo después de que toda la información fuese eliminada).
+
 

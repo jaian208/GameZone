@@ -26,6 +26,24 @@ Se elaboró el archivo README.md con la temática del sitio y el público objeti
 Se desarrollaron los wireframes de las páginas (Home, Detalle de producto, Carrito de compras, Registro y Login) en figma
 Los wireframes pueden visualizarse en el siguiente enlace: https://www.figma.com/design/HjavAYJwaUEKobtNTbgrBD/Dise%C3%B1os-%22GameZone%22?node-id=3-226&t=zKj0u1KHV0amjo0i-0
 
+- Aspectos a mejorar
+
+Algunas dudas en la distribución de tareas dentro del equipo, lo que generó pequeñas confusiones en la asignación inicial.
+
+Mejorar la organización y estructura de los archivos dentro del repositorio.
+
+Utilizar de forma más frecuente el control de versiones para registrar los avances.
+
+
+- Plan de mejora para el siguiente sprint
+
+Implementar una mejor planificación de tareas dentro del equipo.
+
+Mantener commits más claros y organizados en Git.
+
+Avanzar en la implementación del diseño utilizando las tecnologias y herramientas seleccionadas.
+
+
 
 ## Retrospectiva Sprint 2:
 
@@ -46,4 +64,12 @@ Hubo momentos donde quisimos implementar soluciones complejas (como actualizacio
 
 Sequelize tiene una particuarlidad si se le pasa un argumento en específico, lo que puede generar QUE TODA LA BASE DE DATOS simplemente se purgue y deje la página sin absolutamente nada (afortunadamente, guardamos copias de seguridad y pudimos reponernos en muy poco tiempo después de que toda la información fuese eliminada).
 
+- Plan de mejora para el siguiente sprint
+
+
+Implementar funcionalidades dinámicas para la recomendacion de productos en la pagina home, y detalles del producto.
+
+implementar encriptado de contraseña para los usuarios que se registren.
+
+Continuar con la mejora del diseño visual del sitio web.
 

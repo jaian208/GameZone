@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include("../partials/head") %>
+
+<body class="bg-dark text-light"> <%- include("../partials/navbar") %>
+
+<div class="container mt-5">
+
+    <div class="row mb-4">
+        <div class="col-12">
+            <h1 class="display-5 fw-bold"><%= juego.nombre %></h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8 mb-4">
+            <img src="<%= juego.imagen_portada %>" alt="<%= juego.nombre %>" class="img-fluid rounded shadow w-100 mb-4" style="max-height: 500px; object-fit: cover;">
+
+            <div class="p-4 rounded" style="background-color: #1b2838;"> <h3 class="border-bottom border-secondary pb-2 mb-3">Acerca de este juego</h3>
+                <p class="fs-5" style="white-space: pre-wrap;"><%= juego.descripcion %></p>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card bg-secondary text-light border-0 shadow">
+                <div class="card-body p-4" style="background-color: #16202d;"> <h2 class="text-success mb-4"><%= juego.precio %> COP</h2>
+
+                    <button class="btn btn-success w-100 btn-lg mb-2 fw-bold">Añadir al carro</button>
+                    <button class="btn btn-outline-light w-100 mb-4">Añadir a la lista de deseos</button>
+
+                    <ul class="list-unstyled text-light-50 mt-4" style="font-size: 0.9rem;">
+                        <li class="mb-2"><strong>Categoría:</strong> <span class="badge bg-primary"><%= juego.categoria %></span></li>
+                        <li class="mb-2"><strong>Desarrollador:</strong> GameZone Studios</li>
+                        <li class="mb-2"><strong>Fecha de registro:</strong> <%= juego.createdAt.toLocaleDateString() %></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-4 p-3 rounded" style="background-color: #1b2838;">
+                <h5 class="border-bottom border-secondary pb-2">Reseñas de usuarios</h5>
+                <p class="text-muted fst-italic mt-2">Aún no hay reseñas para esta obra maestra. ¡Sé el primero en sobrevivir y contarlo!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h4 class="mt-5 text-center fw-bold">Recomendaciones</h4>
+<div class="row mt-3">
+    <% juegosRecomendaciones1.forEach(juego => { %>
+        <div class="col-md-3 mb-3">
+            <div class="card game-card">
+                <img src="<%= juego.imagen_portada %>" class="card-img-top">
+                <div class="card-body">
+                    <h6><%= juego.nombre %></h6>
+                    <p><%= juego.precio %> COP</p>
+                    <a href="/comprar/<%= juego.id %>"
+                       class="btn btn-primary btn-sm">Comprar</a>
+                </div>
+            </div>
+        </div>
+    <% }) %>
+</div>
+
+
+
+
+<%- include("../partials/footer") %>
+
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

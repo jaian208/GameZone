@@ -11,13 +11,28 @@ EJS: Motor de plantillas que permite la reutilización de componentes genéricos
 FIGMA: Aplicación que permite diseño interactivo de interfaces.
 
 
-Durante la semana 1 del proyecto, se realizaron los Wireframes en Figma. Se realizaron los diseños en base a nuestras referencias (Steam/EpicGames) para ofrecer un 
-equilibrio visual y que no sea demasiado expositivo para el usuario, lo que busca una experiencia satisfactoria.
+Durante la semana 1 del proyecto, se realizaron los Wireframes en Figma. Se realizaron los diseños en base a nuestras referencias (Steam/EpicGames) para ofrecer un equilibrio visual y que no sea demasiado expositivo para el usuario, lo que busca una experiencia satisfactoria.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## SEGUNDA REUNIÓN (Semana 2, una vez que los diseños en FIGMA estuvieron disponibles y con algunos retoques adicionales):
 
+### DISEÑO DEL PROYECTO (las bases principales)
+
+implementacion dee note.js, expres, organizacion de los archivos en diferentes carpetas y subcarpetas
+controller
+router
+model
+public:
+- css
+- images
+- js
+views:
+- home
+- infoJuego
+- login
+- register
+- partials
 
 ### IMPLEMENTACIÓN DE EJS.
 
@@ -41,7 +56,7 @@ Con esto, se lograron los siguientes objetivos:
 -Definición de relación M-M entre ambos objetos (User y Juego).
 
 
-## CARTA REUNIÓN (Semana 4):
+## CUARTA REUNIÓN (Semana 4):
 
 Para experimentar con los futuros usuarios. Se emplean las herramientas Bcrypt y express-session para poder registrar y validar usuarios en GameZone.
 

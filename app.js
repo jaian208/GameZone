@@ -63,6 +63,8 @@ app.set('view engine','ejs');
 
 const homeRoutes = require("./router/homeRouter");
 
+const juegoFormularioRoutes= require("./router/juegoFormularioRouter");
+
 const juegoRoutes = require("./router/infojuegoRouter");
 
 const userRoutes = require("./router/userRouter");
@@ -72,6 +74,8 @@ const authenticationRoutes= require("./router/authenticationRouter");
 const carritoRoutes= require("./router/carritoRouter");
 
 const path = require("node:path");
+
+app.use("/", juegoFormularioRoutes);
 
 app.use("/", homeRoutes);
 

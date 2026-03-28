@@ -21,11 +21,19 @@ exports.crearUsuario = async (req, res) => {
         const salt = await bcrypt.genSalt(10);
         const passwordEncriptada= await bcrypt.hash(password, salt);
 
+
+        //CREDENCIALES DE ADMIN (PROVISIONAL)
+        let rolAsignado= 'cliente';
+        if (email === 'admin@gamezone.com'){
+            rolAsignado='admin';
+        }
+
+        //Creamos el usuario
         await User.create({
             nombre: nombre,
             email: email,
             password: passwordEncriptada,
-            rol: 'cliente',
+            rol: rolAsignado,
             estado_cuenta: true
         });
         res.redirect('/login');

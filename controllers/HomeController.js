@@ -18,7 +18,7 @@ async function ObtenerCategorias() {
     }));
 }
 
-
+    //
     exports.home = async (req, res) => {
         try {
             const JuegosDB = await Juego.findAll();

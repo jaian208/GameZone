@@ -75,7 +75,7 @@ Continuar con la mejora del diseño visual del sitio web.
 
 ## Retrospectiva Sprint 3:
 
-se implementó un sistema para el ingreso de nuevos juegos mediante un formulario, el cual está restringido a un rol específico de usuario, mejorando así el control y la administración del contenido.
+Se implementó un sistema para el ingreso de nuevos juegos mediante un formulario, el cual está restringido a un rol específico de usuario, mejorando así el control y la administración del contenido. Los cambios presentan las funcionalidades esperadas y responden adecuadamente. Aunque se presentaron bastantes inconvenientes durante el proceso de implementación de los formularios debido a que se necesitaba la verificación del rol del usuario, pero afortunadamente, se logró ajustar los parámetros dinámicos para la experiencia del usuario y la experiencia del administrador.
 
 ## Aspectos positivos:
 

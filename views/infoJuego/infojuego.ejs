@@ -17,19 +17,26 @@
         <div class="col-lg-8 mb-4">
             <img src="<%= juego.imagen_portada %>" alt="<%= juego.nombre %>" class="img-fluid rounded shadow w-100 mb-4" style="max-height: 500px; object-fit: cover;">
 
-            <div class="p-4 rounded" style="background-color: #1b2838;"> <h3 class="border-bottom border-secondary pb-2 mb-3">Acerca de este juego</h3>
+            <div class="p-4 rounded" style="background-color: #1b2838;">
+                <h3 class="border-bottom border-secondary pb-2 mb-3">Acerca de este juego</h3>
                 <p class="fs-5" style="white-space: pre-wrap;"><%= juego.descripcion %></p>
             </div>
         </div>
 
         <div class="col-lg-4">
             <div class="card bg-secondary text-light border-0 shadow">
-                <div class="card-body p-4" style="background-color: #16202d;"> <h2 class="text-success mb-4"><%= juego.precio %> COP</h2>
+                <div class="card-body p-4" style="background-color: #16202d;">
+                    <h2 class="text-success mb-4"><%= juego.precio %> COP</h2>
 
                     <a href="/carrito/agregar/<%= juego.id %>" class="btn btn-success w-100 btn-lg mb-2 fw-bold text-center text-decoration-none">
                         Añadir al carro
                     </a>
-                    <button class="btn btn-outline-light w-100 mb-4">Añadir a la lista de deseos</button>
+                    <button class="btn btn-outline-light w-100 mb-3">Añadir a la lista de deseos</button>
+
+                        <hr class="border-secondary mb-3">
+                        <a href="/edicion/<%= juego.id %>" class="btn btn-warning w-100 fw-bold mb-3 text-dark shadow-sm">
+                            ⚙️ Modo Admin: Editar Juego
+                        </a>
 
                     <ul class="list-unstyled text-light-50 mt-4" style="font-size: 0.9rem;">
                         <li class="mb-2"><strong>Categoría:</strong> <span class="badge bg-primary"><%= juego.categoria %></span></li>
@@ -51,21 +58,17 @@
 <div class="row mt-3">
     <% juegosRecomendaciones1.forEach(juego => { %>
         <div class="col-md-3 mb-3">
-            <div class="card game-card">
-                <img src="<%= juego.imagen_portada %>" class="card-img-top">
-                <div class="card-body">
-                    <h6><%= juego.nombre %></h6>
-                    <p><%= juego.precio %> COP</p>
-                    <a href="/comprar/<%= juego.id %>"
-                       class="btn btn-primary btn-sm">Comprar</a>
+            <div class="card game-card border-0 shadow-sm" style="background-color: #1b2838;">
+                <img src="<%= juego.imagen_portada %>" class="card-img-top" style="height: 150px; object-fit: cover;">
+                <div class="card-body text-center">
+                    <h6 class="text-light text-truncate"><%= juego.nombre %></h6>
+                    <p class="text-success fw-bold"><%= juego.precio %> COP</p>
+                    <a href="/infoJuego/<%= juego.id %>" class="btn btn-primary btn-sm w-100">Ver Juego</a>
                 </div>
             </div>
         </div>
     <% }) %>
 </div>
-
-
-
 
 <%- include("../partials/footer") %>
 

@@ -73,6 +73,8 @@ const authenticationRoutes= require("./router/authenticationRouter");
 
 const carritoRoutes= require("./router/carritoRouter");
 
+const juegoEdicionRoutes= require("./router/juegoEdicionRouter");
+
 const path = require("node:path");
 
 app.use("/", juegoFormularioRoutes);
@@ -87,7 +89,7 @@ app.use("/", userRoutes);
 
 app.use("/", carritoRoutes);
 
-
+app.use("/", juegoEdicionRoutes);
 
 app.use(express.static(path.join(__dirname, 'public')));
 

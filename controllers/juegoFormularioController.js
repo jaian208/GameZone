@@ -52,3 +52,7 @@ exports.AñadirelJuego= async function (req, res) {
         res.status(400).send('Error Crítico');
     }
 }
+
+exports.EditarJuego = async function (req, res) {
+
+}

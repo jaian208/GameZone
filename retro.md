@@ -86,11 +86,33 @@ Se implementó correctamente el formulario para la carga de productos.
 Se aplicó control de acceso por roles para restringir funcionalidades.
 
 ## Aspectos a mejorar:
-
 Algunos problemas en la integración de funcionalidades entre diferentes partes del sistema.
 
 Plan de mejora para el siguiente sprint
 
+
 Mejorar la integración entre módulos del sistema.
 
 Optimizar la organización del código para facilitar su mantenimiento.
+
+## Retrospectiva Sprint 4:
+
+Durante el Sprint 4, el equipo se enfocó en la integración final de funcionalidades clave del sistema, mejoras en la experiencia del usuario y corrección de errores detectados en los sprints anteriores se trabajó especialmente en la estabilidad del sistema, validaciones y detalles visuales del sitio web.
+
+## Aspectos positivos:
+
+Se logró una mejor integración entre los diferentes módulos del sistema.
+Se corrigieron varios errores relacionados con sesiones y validaciones de usuario.
+Se mejoró la experiencia del usuario mediante ajustes en la interfaz y navegación del sitio.
+Se fortaleció el control de acceso, asegurando que cada rol tenga permisos adecuados.
+
+## Aspectos a mejorar:
+
+Falta mejorar la validación de formularios en el lado del cliente.
+Algunas partes del código aún pueden optimizarse para mayor claridad y mantenimiento.
+algunos problemas pequeños con el carrrito de compras para del usuario.
+
+## Plan de mejora para el siguiente sprint
+
+Agregar mejoras visuales finales para lograr una interfaz más atractiva y profesional.
+corregir el error que hay en la base de datos relacionada a carrito de compras.
